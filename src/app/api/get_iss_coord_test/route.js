@@ -7,7 +7,7 @@ export async function GET(request){
 
     return NextResponse.json(
         {
-            "iss_latitude":lat,
+            "latitude":lat,
             "longitude":lon
         }
     );
