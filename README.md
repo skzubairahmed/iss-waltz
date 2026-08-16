@@ -5,6 +5,7 @@ I wrote this simple website to track the International Space Station's position 
 ## I used the following for this project:-
 1. Frontend:-
 - NextJS
+- Leaflet for the map
 
 2. Backend:-
 - NextAPI
