@@ -47,7 +47,7 @@ export default function Home(){
                   [ LIVE_ISS_TELEMETRY ]
                 </h1>
                 <h1 className="text-md sm:text-md font-mono tracking-widest text-[#06B6D4]">
-                  [ ALTITUDE: {altitude}km ]
+                  [ ALTITUDE: {altitude.toFixed(4)}km ]
                 </h1>
                 <div className="font-mono text-sm text-[#06B6D4]/80 flex items-center gap-2">
                   <span className="w-2.5 h-2.5 rounded-full bg-[#06B6D4] animate-ping" />
